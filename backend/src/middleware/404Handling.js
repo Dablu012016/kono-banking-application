@@ -12,7 +12,7 @@ const notFoundError = (err, req, res, next) => {
         error_obj.code = err.statusCode
     }
 
-    res.status(error_obj.code).send(error_obj);
+    res.status(error_obj.code)  .send(error_obj);
 }
 
 module.exports = notFoundError

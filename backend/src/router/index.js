@@ -4,7 +4,7 @@ const AuthRoute = require("./auth");
 
 const routes = [{
     path:'/auth',
-    route:AuthRoute
+    route: AuthRoute
 }];
 
 routes.forEach((cur) => {
